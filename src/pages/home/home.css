@@ -1,0 +1,43 @@
+.icon-container{
+    padding-block: 2rem;
+}
+.custom-card {
+    padding: 10px 16px;
+}
+.custom-card-container {  
+    /* background-image: url('https://demo.dashboardpack.com/architectui-react-pro/static/media/abstract3.1f1397c314b1a4db617a.jpg'); */
+    animation-name: popup ;
+    animation-duration: .3s ;
+    animation-iteration-count: 1;
+    box-shadow: -9px 13px 12px -16px #2196f3;
+    transition: .3s;
+} 
+.custom-card-container:hover {   
+    scale: 1.05; 
+} 
+
+.one{ 
+    animation-delay: .3s;
+}
+.two{
+    box-shadow: aquamarine;
+    animation-delay: .4s;
+
+}
+.three{ 
+    animation-delay: .1s;
+
+}
+.four{ 
+    animation-delay: .7s;
+
+}
+@keyframes popup {
+    0%{
+        scale: 1;
+        box-shadow:  -33px 36px 36px -35px #2196f3;
+    }
+    100%{
+        scale: 1.05;
+    }
+}
